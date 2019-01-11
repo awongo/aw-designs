@@ -1,0 +1,80 @@
+.container-fluid{
+    background-color: black;
+    height:auto;
+}
+.image-fluid{
+    max-width: 100%;
+    max-height: auto;
+    
+}
+body{
+    background-color:black;
+}
+#logo1{
+    width:60px;
+    position: relative;
+}
+main .col-sm{
+    background-image: url(../images/AW-logo-2.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    height: 300px;
+    margin-bottom: 0px auto;
+}
+.menu{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    position:relative;
+    margin-left:0 auto;
+    
+}
+.menu li{
+    float:left;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    font: bold;
+    font-size: 30px;
+    color:black;
+    padding: 10px;
+    text-shadow: 2px black;
+    margin:auto;
+}
+.menu li a{
+    color:black;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font:bold;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.menu li a:hover{
+    color:rgba(9, 190, 250, 0.815);
+    transition: all;
+    transition-delay: 0s;
+}
+#portfolio h3{
+    color:white;
+}
+#contact-us h3{
+    color:white;
+}
+#contact-us p{
+    color:white;
+}
+#contact-us  address{
+    color:white;
+}
+#sponsors h3{
+    color:white;
+}
+#vle p{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+}
